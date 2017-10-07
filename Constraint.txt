@@ -1,0 +1,945 @@
+Constraint Rules:
+M3
+l1 = l2
+w1 = w2
+| vds2 - vds1 | <= Vdsmax(dp)
+|vgs2 - vgs1 | <= Vgsmax
+M3
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M3
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Differential Pair M3
+Recognised Block: Current Mirror M3
+M4
+l1 = l2
+w1 = w2
+| vds2 - vds1 | <= Vdsmax(dp)
+|vgs2 - vgs1 | <= Vgsmax
+M4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Differential Pair M4
+Recognised Block: Current Mirror M4
+M0
+l1 = l2
+w1 = w2
+| vds2 - vds1 | <= Vdsmax(dp)
+|vgs2 - vgs1 | <= Vgsmax
+M0
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M0
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Differential Pair M0
+Recognised Block: Current Mirror M0
+M1
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M1
+M2
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M2
+M5
+l1 = l2
+w1 = w2
+| vds2 - vds1 | <= Vdsmax(dp)
+|vgs2 - vgs1 | <= Vgsmax
+M5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Differential Pair M5
+Recognised Block: Current Mirror M5
+M3
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M0
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m6
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter m6
+m6
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m6
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Current Mirror m6
+m5
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter m5
+m5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Current Mirror m5
+m4
+l1 = l2
+w1 = w2
+| vds2 - vds1 | <= Vdsmax(dp)
+|vgs2 - vgs1 | <= Vgsmax
+m4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Differential Pair m4
+Recognised Block: Current Mirror m4
+M5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter m7
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Current Mirror m7
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M9
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M9
+M0
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M0
+M0
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m6
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M3
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M3
+M1
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M1
+M11
+l1 = l2
+w1 = w2
+| vds2 - vds1 | <= Vdsmax(dp)
+|vgs2 - vgs1 | <= Vgsmax
+M11
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M11
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Differential Pair M11
+Recognised Block: Current Mirror M11
+m4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M8
+l1 = l2
+w1 = w2
+| vds2 - vds1 | <= Vdsmax(dp)
+|vgs2 - vgs1 | <= Vgsmax
+M8
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M8
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Differential Pair M8
+Recognised Block: Current Mirror M8
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M3
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M5
+l1 = l2
+w1 = w2
+| vds2 - vds1 | <= Vdsmax(dp)
+|vgs2 - vgs1 | <= Vgsmax
+M5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Differential Pair M5
+Recognised Block: Current Mirror M5
+M6
+l1 = l2
+w1 = w2
+| vds2 - vds1 | <= Vdsmax(dp)
+|vgs2 - vgs1 | <= Vgsmax
+M6
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M6
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Differential Pair M6
+Recognised Block: Current Mirror M6
+M2
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M2
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Current Mirror M2
+M4
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M4
+M7
+l1 = l2
+w1 = w2
+| vds2 - vds1 | <= Vdsmax(dp)
+|vgs2 - vgs1 | <= Vgsmax
+M7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Differential Pair M7
+Recognised Block: Current Mirror M7
+M5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised block: Cascode current mirror M0 M0
+Recognised block: Improved wilson current mirror M0M0
+Recognised block: Cascode current mirror M1 M3
+Recognised block: Improved wilson current mirror M1M3
+Recognised block: Cascode current mirror M1 M4
+Recognised block: Improved wilson current mirror M1M4
+Recognised block: Cascode current mirror M2 M6
+Recognised block: Improved wilson current mirror M2M6
+Recognised block: Cascode current mirror M4 M5
+Recognised block: Improved wilson current mirror M4M5
+M8
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M8
+M8
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M8
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Current Mirror M8
+M5
+l1 = l2
+w1 = w2
+| vds2 - vds1 | <= Vdsmax(dp)
+|vgs2 - vgs1 | <= Vgsmax
+M5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Differential Pair M5
+Recognised Block: Current Mirror M5
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M3
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M7
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M7
+M5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M6
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M6
+M7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M0
+l1 = l2
+w1 = w2
+| vds2 - vds1 | <= Vdsmax(dp)
+|vgs2 - vgs1 | <= Vgsmax
+M0
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M0
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Differential Pair M0
+Recognised Block: Current Mirror M0
+M0
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m6
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M11
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M3
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M3
+m4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M8
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M6
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M2
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M2
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M2
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M2
+M4
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M4
+M5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M9
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M9
+Recognised block: Cascode current mirror M2 M6
+Recognised block: Improved wilson current mirror M2M6
+Recognised block: Cascode current mirror M9 M5
+Recognised block: Improved wilson current mirror M9M5
+M0
+l1 = l2
+w1 = w2
+| vds2 - vds1 | <= Vdsmax(dp)
+|vgs2 - vgs1 | <= Vgsmax
+M0
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M0
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Differential Pair M0
+Recognised Block: Current Mirror M0
+M2
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M2
+M8
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M3
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M0
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M1
+l1 = l2
+w1 = w2
+| vds2 - vds1 | <= Vdsmax(dp)
+|vgs2 - vgs1 | <= Vgsmax
+M1
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M1
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Differential Pair M1
+Recognised Block: Current Mirror M1
+M0
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m6
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M11
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M8
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M6
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M2
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M2
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised block: Cascode current mirror M2 M3
+Recognised block: Improved wilson current mirror M2M3
+Recognised block: Cascode current mirror M2 M6
+Recognised block: Improved wilson current mirror M2M6
+Recognised block: Cascode current mirror M9 M5
+Recognised block: Improved wilson current mirror M9M5
+M0
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M8
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M7
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M7
+M3
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M3
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M3
+M5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M2
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M2
+M7
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M0
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M0
+M0
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M1
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M0
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m6
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M11
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+m4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M8
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M5
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M5
+M4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M4
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M1
+l1 = l2
+w1 = w2
+| vds2 - vds1 | <= Vdsmax(dp)
+|vgs2 - vgs1 | <= Vgsmax
+M1
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M1
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Differential Pair M1
+Recognised Block: Current Mirror M1
+M6
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M2
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M2
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M6
+l1 = l2
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised Block: Level Shifter M6
+M5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+M5
+id1/id2 = (w1/l1)/(w2/l2)
+l1 = l2
+|vds2 - vds1 | <= diff(Vdsmax(cm))
+vgs1,2 - Vth1,2 >= Vgsmin
+Recognised block: Cascode current mirror M7 m7
+Recognised block: Improved wilson current mirror M7m7
+Recognised block: Cascode current mirror M7 M3
+Recognised block: Improved wilson current mirror M7M3
+Recognised block: Cascode current mirror M2 M6
+Recognised block: Improved wilson current mirror M2M6
+Recognised block: Cascode current mirror M9 M5
+Recognised block: Improved wilson current mirror M9M5

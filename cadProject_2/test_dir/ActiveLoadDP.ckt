@@ -1,0 +1,24 @@
+// Generated for: spectre
+// Generated on: Apr 18 20:32:52 2017
+// Design library name: CAD
+// Design cell name: ActiveLoadedDP
+// Design view name: schematic
+simulator lang=spectre
+global 0 5 6
+
+// Library name: CAD
+// Cell name: ActiveLoadedDP
+// View name: schematic
+M5 1 2 5 5 PMOS_VTL w=90n l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+M0 3 2 5 5 PMOS_VTL w=90n l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+M4 1 4 7 7 NMOS_VTL w=90n l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+M3 3 8 7 7 NMOS_VTL w=90n l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+M2 7 9 6 6 NMOS_VTL w=90n l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+M1 9 9 6 6 NMOS_VTL w=90n l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+*I2 5 9 isource type=pulse val0=0 val1=0
+*V2 4 0 vsource type=dc
+*V1 8 0 vsource type=dc
+*V0 1 0 vsource type=dc
+
+
+

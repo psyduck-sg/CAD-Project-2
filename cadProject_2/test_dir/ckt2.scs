@@ -1,0 +1,22 @@
+// Generated for: spectre
+// Generated on: Apr 18 20:13:22 2017
+// Design library name: CADAssignment
+// Design cell name: ckt2
+// Design view name: schematic
+simulator lang=spectre
+global 0
+
+// Library name: CADAssignment
+// Cell name: ckt2
+// View name: schematic
+M1 5 1 2 0 NMOS_VTL w=90n l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+M8 2 3 0 0 NMOS_VTL w=90n l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+M5 3 1 6 6 NMOS_VTL w=90n l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+M0 6 3 0 0 NMOS_VTL w=90n l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+M9 5 7 8 9 PMOS_VTL w=90n l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+M7 3 7 4 9 PMOS_VTL w=90n l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+M6 4 10 12 9 PMOS_VTL w=90n l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+M4 8 11 12 9 PMOS_VTL w=90n l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+M3 12 13 9 9 PMOS_VTL w=90n l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+
+

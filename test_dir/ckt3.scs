@@ -1,0 +1,17 @@
+// Generated for: spectre
+// Generated on: Apr 18 20:27:29 2017
+// Design library name: CADAssignment
+// Design cell name: ckt3
+// Design view name: schematic
+simulator lang=spectre
+global 0
+
+// Library name: CADAssignment
+// Cell name: ckt3
+// View name: schematic
+I0 1 3 isource type=pulse val0=0 val1=0
+M1 5 4 7 7 PMOS_VTL w=90n l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+M0 6 4 7 7 PMOS_VTL w=90n l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+M3 5 2 1 3 NMOS_VTL w=90n l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+M2 6 8 1 3 NMOS_VTL w=90n l=50n as=9.45e-15 ad=9.45e-15 ps=300n pd=300n ld=105n ls=105n m=1
+
